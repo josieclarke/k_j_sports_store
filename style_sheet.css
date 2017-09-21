@@ -9,3 +9,26 @@ h1 {
 <p id="summary">Specific summary paragraph.</p>
 <p>Generic paragraph</p>
 
+
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: blue;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a three digit code. Same as #111111 */
+  background-color: red;
+}
+
+body {
+    background-color: lightblue;
+} 
