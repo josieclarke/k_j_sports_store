@@ -23,6 +23,15 @@ nav li a {
   text-decoration: none;
 }
 
+nav ul {
+	list-style: ;
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	background-color: red;
+	overflow: hidden;
+}
+
 /* Change the link color on hover */
 nav li a:hover {
   /* This is a three digit code. Same as #111111 */
