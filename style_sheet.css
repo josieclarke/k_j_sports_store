@@ -1,0 +1,11 @@
+
+h1 {
+      color: blue;
+      text-align: center;
+      font-size: 35px;
+}
+
+<p>Generic paragraph</p>
+<p id="summary">Specific summary paragraph.</p>
+<p>Generic paragraph</p>
+
