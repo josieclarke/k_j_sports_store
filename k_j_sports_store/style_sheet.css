@@ -1,0 +1,51 @@
+
+h1 {
+      color: blue;
+      text-align: center;
+      font-size: 35px;
+}
+
+<p>Generic paragraph</p>
+<p id="summary">Specific summary paragraph.</p>
+<p>Generic paragraph</p>
+
+
+
+nav li {
+  float: left;
+}
+
+nav ul li{
+  display:block; 
+  list-style-type: none;
+  font-family:arial,helvetica,sans-serif;
+  padding-bottom: 0px;
+}
+
+nav li a {
+  display: block;
+  list-style-type: none;
+  color: blue;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 14px;
+	padding: 0;
+	font-family: arial, sans-serif;
+	background-color: white;
+	overflow: hidden;
+}
+
+
+nav li a:hover {
+  
+  background-color: red;
+}
+
+body {
+    background-color: lightblue;
+} 
