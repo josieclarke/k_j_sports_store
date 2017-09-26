@@ -2,58 +2,77 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <title>Example Bootstrap Document</title>
 
-	<title>About K and J's Sports Store</title>
-	
-	<link rel="stylesheet" type="text/css" href="malacs_css_page.css">
-</head>
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<header>
-  <img src="logo.png" alt="Kosta and Josie's Local Sports Store">
-</header>
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<body>
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-<h1>K &amp; J's Local Sports Store</h1>
+    <!-- If you don't like how bootstrap looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
 
-<nav>
-  <ul>
-    <li>
-      <a href="index.html">Home</a>
-    </li>
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
 
-    <li>
-      <a href="about1_kh.html">About</a>
-    </li>
+    <!-- Our custom stylesheet that WE write. We need this to not have our
+         text appear under the nav bar. -->
+    <link rel="stylesheet" href="malacs_css_page.css">
 
-    <li>
-      <a href="soccer_kh.html">Soccer Store</a>
-    </li>
+  </head>
 
-    <li>
-      <a href="basketball_page_jvc.html">Basketball Store</a>
-    </li>
+  <body>
 
-    <li>
-      <a href="football_page_jvc.html">Football Store</a>
-    </li>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
 
-    <li>
-      <a href="softball_page_jvc.html">Softball Store</a>
-    </li>   
+            <!-- Three line "hamburger" icon for the collapsed navigation -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-    <li>
-      <a href="Login.html">Login</a>
-    </li>
-    <li>
-      <a href="Signup.html">Sign Up</a>
-    </li>
-  </ul>
-</nav>
+          <!-- Title on nav bar -->
+          <a class="navbar-brand" href="#">K & J's</a>
+        </div>
 
-<h2>Why support a local sports store?</h2>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about1_kh.html">About</a></li>
+            <li><a href="soccer_kh.html">Soccer Store</a></li>
+            <li><a href="basketball_page_jvc.html">Basketball Store</a></li>
+            <li><a href="football_page_jvc.html">Football Store</a></li>
+            <li><a href="softball_page_jvc.html">Softball Store</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+      <!-- This container moves below the menu bar -->
+      <div class="below_menu_container">
+      
+      <img src="logo.png" alt="K and J's Local Sports Store" />
+      <h1>K &amp; J's Local Sports Store</h1>
+      <h2>Why support a local sports store?</h2>
 
 <p>Josie and I had collabrated on this idea when we were in our undergraduate career at Simpson College. The idea came to us due to the fact that Indianola was lacking in the sports environment. If someone were to want to buy cleats, pads, bats, or anything related to gear, they would have to drive up to Des Moines. By opening up our own local sports store with all the gear someone could want, it provides athletes here at Simpson College ways to buy them. Why buy gear online, where you don't know how well it will fit, when you could just come in and try anything on? We would also like to mention that all Simpson athletes have a 15% discount on anything in the store. Doing this allows us to hold our long and healthy relationship with Simpson College.</p>
 
@@ -78,15 +97,10 @@
   <thead>
     <tr>
       <th>Store</th>
-      <th></th>
       <th>Basketball Shoes</th>
-      <th>__</th>
       <th>Soccer Cleats</th>
-      <th>__</th>
       <th>Football Helment</th>
-      <th>__</th>
       <th>Softball Bats</th>
-      <th>__</th>
       <th>Baseball Golves</th>
     </tr>
   </thead>
@@ -144,5 +158,14 @@
   <p>Contact Information: kosta.hidri@my.simpson.edu</p>
   <p>Secondary Contact: josie.clarke@my.simpson.edu</p>
 </footer>
+        
+        
+        
+      </div>
+    </div>
 
+    <!-- Scripts required to make Bootstrap work better. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,79 +1,8 @@
-body {
-  background: #DAECF3;
+/* Move our main document below the menu */
+.below_menu_container {
+  padding-top: 50px;
 }
 
-section {
-  background: #FFF;
-  max-width: 800px;
-  padding: 5px;
-}
-
-article {
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 15px;
-  margin: 15px;
-  padding: 15px;
-}
-
-p {
-    font-family: arial,sans-serif;
-}
-
-footer {
-    font-family: arial,sans-serif;
-}
-
-h1 {
-  font-size: 24px;
-  font-family: arial,sans-serif;
-  color: #FF404E;
-  text-align: center;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: arial,sans-serif;
-  color: #FF404E;
-}
-
-.sale {
-  border-style: solid;
-  border-color: #012D41
-  border-width: 7px
-  border-radius: 15px;
-  margin: 15px;
-  padding: 15px;
-}
-
-div ul {
-  list-style-type: none;
-}
-
-/* --- Nav Bar --- */
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #012D41;
-  font-family: arial,sans-serif;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: #FFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color on hover */
-nav li a:hover {
-  /* This is a three digit code. Same as #111111 */
-  background-color: #111;
+background-color: #012D41;
 }
