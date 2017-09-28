@@ -1,0 +1,10 @@
+nav li {
+  float: left;
+}
+
+nav ul li{
+  display:block; 
+  list-style-type: none;
+  font-family:arial,helvetica,sans-serif;
+  padding-bottom: 0px;
+}
